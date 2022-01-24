@@ -9,7 +9,7 @@ int main()
 unsigned long long total_sec;
 int hours ,minutes ,seconds;
 printf("Enter number of seconds for calculation: ");
-scanf(" %ld",&total_sec);
+scanf(" %llu",&total_sec);
 
 split_time(total_sec ,&hours ,&minutes ,&seconds);
 printf("Number of seconds passed since midnight is: %ld seconds\n",total_sec);

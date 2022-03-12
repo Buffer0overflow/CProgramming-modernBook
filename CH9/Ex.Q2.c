@@ -1,3 +1,5 @@
+//Deco C code for function
+
 #include <stdio.h>
 
 int check(int x,int y,int n);
